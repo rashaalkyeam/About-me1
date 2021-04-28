@@ -1,0 +1,12 @@
+h1{
+    color: green;
+}
+body{
+    background-color: black;
+}
+nav ul li {
+    display: inline-block;
+}
+li{
+    list-style-type: none;    
+}
