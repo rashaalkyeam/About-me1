@@ -1,12 +1,36 @@
 h1{
-    color: green;
+    color: darkred;
+}
+
+footer{
+    background-color: gainsboro;
+}
+header{
+    background-color: gainsboro;
+}
+main{
+    background-color: gainsboro;
 }
 body{
-    background-color: black;
+    background-color: gainsboro;
 }
 nav ul li {
     display: inline-block;
 }
 li{
     list-style-type: none;    
+}
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.center{
+    font-size:22px;
+    text-align: center;
+    font-family:verdana;
+}
+p {
+    font-family:courier;
+    font-size:16px;
 }
