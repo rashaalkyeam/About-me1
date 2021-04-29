@@ -23,7 +23,7 @@ if (age == 'yes' || age == 'y') {
 
 function place (){
 let live = prompt('Do you think I live in Amman?\n pleas enter yes or no, y or n').toLowerCase();
-if (live == 'yes' || live == 'y') {
+if (live == 'no' || live == 'n') {
     console.log('What you think is correct');
     alert('What you think is correct');
 } else {
@@ -47,7 +47,7 @@ if (study == 'yes' || study == 'y') {
 function haveCar(){
 let car = prompt('Do you think I own a car?\n pleas enter yes or no, y or n').toLowerCase();
 
-if (car == 'yes' || car == 'y') {
+if (car == 'no' || car == 'n') {
     console.log('What you think is correct');
     alert('What you think is correct');
 } else {
@@ -60,5 +60,7 @@ myAge ();
  place ();
  myStudy();
  haveCar();
+
+ alert(`Thankyou ${userName}`);
 
 
